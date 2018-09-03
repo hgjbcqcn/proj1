@@ -38,8 +38,6 @@ public class MainActivity extends AppCompatActivity {
             }
         };
         gridView.setOnItemClickListener(clickListener);
-        Log.d("test", "abc");
-        Log.d("test", "abcde");
     }
 
     private List<ResolveInfo> getAppsList(){
