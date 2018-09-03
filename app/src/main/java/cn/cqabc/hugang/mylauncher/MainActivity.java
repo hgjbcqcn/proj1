@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.content.pm.ResolveInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.AdapterView;
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
             }
         };
         gridView.setOnItemClickListener(clickListener);
+        Log.d("test", "abc");
     }
 
     private List<ResolveInfo> getAppsList(){
